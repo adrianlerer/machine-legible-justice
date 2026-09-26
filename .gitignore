@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+private/
+real-cases/
+credentials/
+.env
+.env.*

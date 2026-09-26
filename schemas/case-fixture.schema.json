@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adrianlerer/machine-legible-justice/schemas/case-fixture.schema.json",
+  "title": "Synthetic adjudicative bias fixture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "fixture_id",
+    "jurisdiction",
+    "as_of_date",
+    "dispute_type",
+    "source_locked_authorities",
+    "legally_relevant_facts",
+    "evidence",
+    "party_submissions",
+    "requested_relief",
+    "controlled_factor",
+    "gold_invariants"
+  ],
+  "properties": {
+    "fixture_id": {"type": "string", "minLength": 1},
+    "jurisdiction": {"type": "string", "minLength": 1},
+    "as_of_date": {"type": "string", "format": "date"},
+    "dispute_type": {"type": "string", "minLength": 1},
+    "source_locked_authorities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "status", "locator"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "status": {"enum": ["binding", "persuasive", "background"]},
+          "locator": {"type": "string"}
+        }
+      }
+    },
+    "legally_relevant_facts": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "party_submissions": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["party_id", "role", "text"],
+        "properties": {
+          "party_id": {"type": "string"},
+          "role": {"type": "string"},
+          "text": {"type": "string"},
+          "profile_cues": {"type": "object"},
+          "presentation_features": {"type": "object"}
+        }
+      }
+    },
+    "requested_relief": {"type": "array", "items": {"type": "string"}},
+    "controlled_factor": {
+      "type": "object",
+      "required": ["name", "variant", "legally_irrelevant"],
+      "properties": {
+        "name": {"type": "string"},
+        "variant": {"type": "string"},
+        "legally_irrelevant": {"const": true}
+      }
+    },
+    "gold_invariants": {
+      "type": "object",
+      "required": ["facts_equal", "evidence_equal", "law_equal", "relief_equal"],
+      "properties": {
+        "facts_equal": {"const": true},
+        "evidence_equal": {"const": true},
+        "law_equal": {"const": true},
+        "relief_equal": {"const": true}
+      }
+    }
+  }
+}

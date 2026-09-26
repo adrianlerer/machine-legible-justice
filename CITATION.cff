@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research programme, please cite the versioned release."
+title: "Machine-Legible Justice: Adjudicative Bias, Synthetic Credibility, and Recursive Lock-In in AI Agents"
+type: software
+authors:
+  - family-names: Lerer
+    given-names: Ignacio Adrián
+date-released: 2026-09-26
+version: 0.1.0-draft
+repository-code: "https://github.com/adrianlerer/machine-legible-justice"
