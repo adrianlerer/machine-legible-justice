@@ -43,6 +43,7 @@ These are research hypotheses, not established empirical findings and not statem
 - [`release/Machine-Legible-Justice-Lerer-2026.pdf`](release/Machine-Legible-Justice-Lerer-2026.pdf): rendered PDF, 11 pages.
 - [`research/novelty-audit.md`](research/novelty-audit.md): inherited, extended, and candidate-new claims.
 - [`research/claims-evidence.md`](research/claims-evidence.md): claims and evidence states.
+- [`research/algorithmic-recusal.md`](research/algorithmic-recusal.md): candidate extension on functional challenges to an agent's impartiality based on attributable prior outputs.
 - [`protocol/experimental-program.md`](protocol/experimental-program.md): staged, synthetic evaluation plan.
 - [`schemas/case-fixture.schema.json`](schemas/case-fixture.schema.json): proposed structure for controlled controversy fixtures.
 - [`STATUS.md`](STATUS.md): publication and validation state.
@@ -61,8 +62,17 @@ Ignacio Adrián Lerer
 Independent researcher  
 [estudio.justitia.com.ar](https://estudio.justitia.com.ar)
 
+ORCID: [0009-0007-6378-9749](https://orcid.org/0009-0007-6378-9749)
+
+## Version of record
+
+Version 1.0 is published on Zenodo under CC BY 4.0:
+
+- DOI: <https://doi.org/10.5281/zenodo.22979245>
+- Record: <https://zenodo.org/records/22979245>
+
 ## Current state
 
-`AUTHOR-REVIEW DRAFT / DOCX AND PDF READY / NOVELTY REVIEW OPEN / NO DOI YET`
+`PREPRINT v1.0 PUBLISHED_VERIFIED / DOCX AND PDF PUBLIC / NOVELTY REVIEW OPEN / NOT PEER REVIEWED`
 
-Copyright remains with the author. No reuse licence has yet been selected. See [`LICENSE_PENDING.md`](LICENSE_PENDING.md).
+The deposited manuscript and research documentation are licensed under CC BY 4.0. Code and schema licensing remains pending a separate decision. See [`LICENSE_PENDING.md`](LICENSE_PENDING.md).

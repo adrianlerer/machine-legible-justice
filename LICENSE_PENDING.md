@@ -1,11 +1,9 @@
-# Licence decision pending
+# Licence scope
 
-No open-source or open-content licence has yet been granted for this repository.
+The deposited v1.0 manuscript and its research documentation are licensed under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/).
 
-The intended publication architecture may use:
+Copyright © 2026 Ignacio Adrián Lerer.
 
-- CC BY 4.0 for the manuscript and research documentation;
-- MIT or Apache-2.0 for original code and schemas;
-- a separate notice for third-party quotations, datasets, or fixtures.
+The Zenodo version of record is available at <https://doi.org/10.5281/zenodo.22979245>.
 
-This is not a licence grant. A licence will be selected by the author before the first versioned public release and DOI deposit.
+This notice does not grant an open-source licence for executable code or schemas in this repository. Their licensing remains pending a separate author decision. Third-party quotations and sources remain subject to their own rights and applicable exceptions.
