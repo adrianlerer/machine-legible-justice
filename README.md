@@ -38,7 +38,9 @@ These are research hypotheses, not established empirical findings and not statem
 
 ## Repository map
 
-- [`paper/manuscript.md`](paper/manuscript.md): conceptual preprint in progress.
+- [`paper/manuscript.md`](paper/manuscript.md): full conceptual preprint for author review.
+- [`release/Machine-Legible-Justice-Lerer-2026.docx`](release/Machine-Legible-Justice-Lerer-2026.docx): A4 DOCX, prepared for author review.
+- [`release/Machine-Legible-Justice-Lerer-2026.pdf`](release/Machine-Legible-Justice-Lerer-2026.pdf): rendered PDF, 11 pages.
 - [`research/novelty-audit.md`](research/novelty-audit.md): inherited, extended, and candidate-new claims.
 - [`research/claims-evidence.md`](research/claims-evidence.md): claims and evidence states.
 - [`protocol/experimental-program.md`](protocol/experimental-program.md): staged, synthetic evaluation plan.
@@ -61,6 +63,6 @@ Independent researcher
 
 ## Current state
 
-`CONCEPT REPOSITORY / MANUSCRIPT IN PROGRESS / NOVELTY REVIEW OPEN / NO DOI YET`
+`AUTHOR-REVIEW DRAFT / DOCX AND PDF READY / NOVELTY REVIEW OPEN / NO DOI YET`
 
 Copyright remains with the author. No reuse licence has yet been selected. See [`LICENSE_PENDING.md`](LICENSE_PENDING.md).

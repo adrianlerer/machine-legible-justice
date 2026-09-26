@@ -5,8 +5,9 @@ Last updated: 2026-09-26
 ## Research state
 
 - Conceptual contribution: `CANDIDATE`
-- Literature audit: `IN PROGRESS`
-- Full manuscript: `IN PROGRESS`
+- Literature audit: `INITIAL SOURCE-LEVEL PASS COMPLETE / EXPANSION OPEN`
+- Full manuscript: `AUTHOR-REVIEW DRAFT COMPLETE`
+- DOCX and PDF: `GENERATED / FORMAT-GATE PASS / VISUALLY INSPECTED`
 - External peer review: `NOT PERFORMED`
 - Empirical validation: `NOT PERFORMED`
 - Synthetic protocol execution: `DISABLED`

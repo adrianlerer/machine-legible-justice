@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 dist/
 build/
+release/rendered*/
 private/
 real-cases/
 credentials/
