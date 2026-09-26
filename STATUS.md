@@ -14,7 +14,9 @@ Last updated: 2026-09-26
 
 ## Publication state
 
-- GitHub repository: `PUBLIC AFTER INITIAL PUSH`
+- GitHub repository: `PUBLIC_VERIFIED`
+- Public URL: `https://github.com/adrianlerer/machine-legible-justice`
+- Initial commit: `8eb35d1`
 - Zenodo release: `NOT CREATED`
 - DOI: `NOT RESERVED / NOT PUBLISHED`
 - Licence: `AUTHOR DECISION REQUIRED`
